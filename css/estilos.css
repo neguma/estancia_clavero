@@ -1,4 +1,28 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  max-width: 1835px; }
+
+.typeSeriff {
+  font-family: PlayFair Display;
+  color: white; }
+
+.typeR {
+  color: white;
+  font-weight: 400;
+  font-family: Poppins; }
+
+.typeIt {
+  font-family: Poppins;
+  font-style: italic;
+  color: white; }
+
 #header {
   font-size: 20px;
   background: #060f21;
