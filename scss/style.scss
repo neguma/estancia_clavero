@@ -1,128 +1,132 @@
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Varela+Round&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .typeSeriff {
-            font-family: Noto serif;
-            font-size: 40px;
-            color: white;
-        }
-        
-        .typeSans {
-            font-family: varela round;
-            font-size: 15px;
-        }
-        
-        .head {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(31, 34, 80);
-            background: linear-gradient(90deg, rgba(31, 34, 80, 1) 4%, rgba(3, 2, 51, 1) 100%);
-            color: white;
-            position: sticky;
-            top: 0px;
-            z-index: 9;
-            a {
-                .tituLogo {
-                    h1 {
-                        margin: 10px;
-                    }
-                    img.logo {
-                        width: 20%;
-                        margin: 10px;
-                    }
-                }
-            }
-            a:hover {
-                color: #fff;
-            }
-            .nav-link {
-                color: #fff;
-            }
-            .nav-link:hover {
-                color: #b2ab8c;
-            }
-        }
-        
-        #seccionPrincipal {
-            height: 4000px;
-            background-image: url('../css/assets/fondob4.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            .panel-video {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                min-width: 75%;
-                margin-top: auto;
-                padding-top: 3vh;
-                height: calc((100vh + 60px) - 25vw);
-                position: relative;
-                video {
-                    object-fit: cover;
-                    width: 100%;
-                    height: 100%;
-                }
-                .panel-video--espacio {
-                    margin-bottom: 3.75rem
-                }
-                .panel-video__titulo {
-                    position: absolute;
-                    left: 50%;
-                    top: 46%;
-                    transform: translate(-50%, -35px);
-                    margin: 0;
-                    padding-left: 0.5em;
-                    padding-right: 0.5em;
-                    opacity: 0;
-                    width: 100%;
-                    text-transform: none;
-                    font-size: 2.875em;
-                    line-height: 1.0285;
-                    text-align: center;
-                    z-index: 1
-                }
-            }
-            .title {
-                color: white;
-                height: 200px;
-                padding: 25px;
-                width: 55%;
-                margin: auto;
-                text-align: right;
-                font-style: italic;
-                p {
-                    border-bottom: 1px solid white;
-                    padding: 10px;
-                }
-            }
-            .tarjeta {
-                text-align: left;
-                background-color: rgba(0, 0, 0, 0.466);
-                padding: 1rem;
-                margin: auto;
-                width: 100%;
-                text-align: justify;
-                color: white;
-                border-radius: 5px;
-                .cardImage {
-                    width: 50%;
-                    padding: 20px;
-                    border-radius: 15px;
-                }
-                .tituloNosotros {
-                    font-size: 3em;
-                    margin: auto;
-                }
-                .textoNosotros {
-                    margin-top: 50px;
-                }
-            }
-        }
+ @import "variables";
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Varela+Round&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .typeSeriff {
+     font-family: Noto serif;
+     font-size: 40px;
+     color: white;
+ }
+ 
+ .typeSans {
+     font-family: varela round;
+     font-size: 15px;
+ }
+ 
+ .bgBlack {
+     background-color: rgba(0, 0, 0, 0.466);
+ }
+ 
+ .head {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
+     background: rgb(31, 34, 80);
+     background: linear-gradient(90deg, rgba(31, 34, 80, 1) 4%, rgba(3, 2, 51, 1) 100%);
+     color: white;
+     position: sticky;
+     top: 0px;
+     z-index: 9;
+     a {
+         .tituLogo {
+             h1 {
+                 margin: 10px;
+             }
+             img.logo {
+                 width: 20%;
+                 margin: 10px;
+             }
+         }
+     }
+     a:hover {
+         color: #fff;
+     }
+     .nav-link {
+         color: #fff;
+     }
+     .nav-link:hover {
+         color: #b2ab8c;
+     }
+ }
+ 
+ #seccionPrincipal {
+     height: 4000px;
+     background-image: url('../css/assets/fondob4.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+     .panel-video {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-width: 75%;
+         margin-top: auto;
+         padding-top: 3vh;
+         height: calc((100vh + 60px) - 25vw);
+         position: relative;
+         video {
+             object-fit: cover;
+             width: 100%;
+             height: 100%;
+         }
+         .panel-video--espacio {
+             margin-bottom: 3.75rem
+         }
+         .panel-video__titulo {
+             position: absolute;
+             left: 50%;
+             top: 46%;
+             transform: translate(-50%, -35px);
+             margin: 0;
+             padding-left: 0.5em;
+             padding-right: 0.5em;
+             opacity: 0;
+             width: 100%;
+             text-transform: none;
+             font-size: 2.875em;
+             line-height: 1.0285;
+             text-align: center;
+             z-index: 1
+         }
+     }
+     .title {
+         color: white;
+         height: 200px;
+         padding: 25px;
+         width: 100%;
+         margin: auto;
+         text-align: right;
+         font-style: italic;
+         p {
+             border-bottom: 1px solid white;
+             padding: 10px;
+         }
+     }
+     .tarjeta {
+         text-align: left;
+         padding: 1rem;
+         margin: auto;
+         width: 100%;
+         text-align: justify;
+         color: white;
+         border-radius: 5px;
+         .cardImage {
+             width: 50%;
+             padding: 20px;
+             border-radius: 15px;
+         }
+         .tituloNosotros {
+             font-size: 3em;
+             margin: auto;
+         }
+         .textoNosotros {
+             margin-top: 50px;
+         }
+     }
+ }
