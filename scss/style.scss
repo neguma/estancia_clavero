@@ -161,3 +161,28 @@
         }
     }
 }
+
+#activities {
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    border-top: 1px solid white;
+    .actividades {
+        padding: 10px;
+        ul li {
+            list-style-type: none;
+            font-size: 2em;
+            padding: 20px;
+        }
+        .carousel-inner {
+            img {
+                width: auto;
+                height: auto;
+                transition: 0.5s all ease-in-out;
+            }
+            img:hover {
+                transform: scale(1.5);
+                padding: -250px;
+            }
+        }
+    }
+}
