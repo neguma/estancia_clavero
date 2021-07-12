@@ -5,10 +5,12 @@
 
 .typeSeriff {
   font-family: Noto Seriff;
-  color: white; }
+  color: white;
+  font-size: 40px; }
 
 .typeSans {
-  font-family: Varela Round; }
+  font-family: Varela Round;
+  font-size: 15px; }
 
 .bgBlack {
   background-color: rgba(0, 0, 0, 0.466); }
@@ -97,10 +99,24 @@
     border-radius: 5px; }
     #seccionPrincipal .tarjeta .cardImage {
       width: 50%;
-      padding: 20px;
-      border-radius: 15px; }
+      padding: 20px; }
     #seccionPrincipal .tarjeta .tituloNosotros {
       font-size: 3em;
       margin: auto; }
     #seccionPrincipal .tarjeta .textoNosotros {
       margin-top: 50px; }
+
+#servicios {
+  margin-top: 100px;
+  height: 60rem; }
+  #servicios .title2 {
+    color: white;
+    height: 200px;
+    padding: 55px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-style: italic; }
+    #servicios .title2 p {
+      border-top: 1px solid white;
+      padding: 10px; }
