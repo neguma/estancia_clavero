@@ -1,0 +1,42 @@
+#seccionContacto {
+    background-image: url('../css/assets/fondob4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+.btn {
+    background-color: rgb(31, 34, 80);
+    border: 0 none;
+}
+
+.btn:hover {
+    background-color: #b2ab8c;
+}
+
+.btn:focus {
+    background-color: #7e7964;
+}

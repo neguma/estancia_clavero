@@ -1,35 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Varela+Round&display=swap");
+.foot {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 13rem;
+  background: #1f2250;
+  background: linear-gradient(90deg, #1f2250 4%, #030233 100%);
+  color: white;
+  text-align: center; }
+  .foot .footerText {
+    padding: 20px;
+    margin: auto;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff; }
+  .foot .footerLogos img {
+    width: 5%;
+    padding: 5px;
+    justify-content: start; }
+
+.head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2250;
+  background: linear-gradient(90deg, #1f2250 4%, #030233 100%);
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 9; }
+  .head a {
+    max-width: 35%; }
+    .head a .tituLogo h1 {
+      margin: auto; }
+    .head a .tituLogo img.logo {
+      width: 35%;
+      margin: 10px; }
+  .head a:hover {
+    color: #fff; }
+  .head .nav-link {
+    color: #fff; }
+  .head .nav-link:hover {
+    color: #b2ab8c; }
+
+.panel-video {
+  min-width: 75%;
+  margin-top: auto;
+  padding-top: 3vh;
+  height: calc((100vh + 60px) - 25vw);
+  position: relative; }
+  .panel-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+  .panel-video .panel-video--espacio {
+    margin-bottom: 3.75rem; }
+  .panel-video .panel-video__titulo {
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    opacity: 0;
+    width: 30%;
+    font-size: 4em;
+    line-height: 1.0285;
+    text-align: center;
+    z-index: 1; }
+
 #seccionPrincipal {
   background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; }
-  #seccionPrincipal .panel-video {
-    min-width: 75%;
-    margin-top: auto;
-    padding-top: 3vh;
-    height: calc((100vh + 60px) - 25vw);
-    position: relative; }
-    #seccionPrincipal .panel-video video {
-      object-fit: cover;
-      width: 100%;
-      height: 100%; }
-    #seccionPrincipal .panel-video .panel-video--espacio {
-      margin-bottom: 3.75rem; }
-    #seccionPrincipal .panel-video .panel-video__titulo {
-      position: absolute;
-      left: 50%;
-      top: 46%;
-      margin: 0;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      opacity: 0;
-      width: 30%;
-      font-size: 4em;
-      line-height: 1.0285;
-      text-align: center;
-      z-index: 1; }
 
 .title {
   color: white;
@@ -125,26 +172,6 @@
     transform: scale(1.5);
     padding: -250px; }
 
-.foot {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 13rem;
-  background: #1f2250;
-  background: linear-gradient(90deg, #1f2250 4%, #030233 100%);
-  color: white;
-  text-align: center; }
-  .foot .footerText {
-    padding: 20px;
-    margin: auto;
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff; }
-  .foot .footerLogos img {
-    width: 5%;
-    padding: 5px;
-    justify-content: start; }
-
 .mapouter {
   position: relative;
   text-align: right;
@@ -156,6 +183,41 @@
     height: auto;
     width: auto;
     margin: auto; }
+
+#seccionContacto {
+  background-image: url("../css/assets/fondob4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+
+form {
+  width: 30%;
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px; }
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.664); }
+
+.modal-header {
+  border-bottom: 0 none; }
+
+.modal-footer {
+  border-top: 0 none; }
+
+.btn {
+  background-color: #1f2250;
+  border: 0 none; }
+
+.btn:hover {
+  background-color: #b2ab8c; }
+
+.btn:focus {
+  background-color: #7e7964; }
 
 * {
   margin: 0;
