@@ -22,11 +22,24 @@
     background-color: $bg-Black;
 }
 
+.title3 {
+    color: white;
+    height: 200px;
+    padding: 55px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    p {
+        border-top: 1px solid white;
+        padding: 10px;
+    }
+}
+
 .mapouter {
     position: relative;
     text-align: right;
     height: auto;
-    min-width: 75%;
     margin: auto;
     .gmap_canvas {
         overflow: hidden;

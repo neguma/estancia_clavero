@@ -167,11 +167,22 @@
 .bgBlack {
   background-color: rgba(0, 0, 0, 0.466); }
 
+.title3 {
+  color: white;
+  height: 200px;
+  padding: 55px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-style: italic; }
+  .title3 p {
+    border-top: 1px solid white;
+    padding: 10px; }
+
 .mapouter {
   position: relative;
   text-align: right;
   height: auto;
-  min-width: 75%;
   margin: auto; }
   .mapouter .gmap_canvas {
     overflow: hidden;
