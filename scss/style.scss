@@ -21,3 +21,18 @@
 .bgBlack {
     background-color: $bg-Black;
 }
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: auto;
+    min-width: 75%;
+    margin: auto;
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+}
