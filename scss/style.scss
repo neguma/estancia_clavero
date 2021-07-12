@@ -7,13 +7,11 @@
  
  .typeSeriff {
      font-family: $seriff;
-     font-size: 40px;
      color: white;
  }
  
  .typeSans {
      font-family: $sans;
-     font-size: 15px;
  }
  
  .bgBlack {
@@ -26,8 +24,8 @@
      flex-wrap: nowrap;
      justify-content: space-between;
      align-items: center;
-     background: rgb(31, 34, 80);
-     background: linear-gradient(90deg, rgba(31, 34, 80, 1) 4%, rgba(3, 2, 51, 1) 100%);
+     background: $bg-Blue;
+     background: $bg-Blue-Gradient;
      color: white;
      position: sticky;
      top: 0px;

@@ -5,12 +5,10 @@
 
 .typeSeriff {
   font-family: noto seriff;
-  font-size: 40px;
   color: white; }
 
 .typeSans {
-  font-family: varela round;
-  font-size: 15px; }
+  font-family: varela round; }
 
 .bgBlack {
   background-color: rgba(0, 0, 0, 0.466); }
