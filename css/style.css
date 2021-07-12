@@ -24,21 +24,21 @@
   position: sticky;
   top: 0px;
   z-index: 9; }
-  .head h1 {
+  .head a .tituLogo h1 {
     margin: 10px; }
-  .head img.logo {
+  .head a .tituLogo img.logo {
     width: 20%;
     margin: 10px; }
-
-.nav-link {
-  color: white; }
-
-.nav-link:hover {
-  color: #b2ab8c; }
+  .head a:hover {
+    color: #fff; }
+  .head .nav-link {
+    color: #fff; }
+  .head .nav-link:hover {
+    color: #b2ab8c; }
 
 #seccionPrincipal {
   height: 4000px;
-  background-image: url("../media/fondob4.jpg");
+  background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

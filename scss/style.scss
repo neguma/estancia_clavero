@@ -27,26 +27,31 @@
     position: sticky;
     top: 0px;
     z-index: 9;
-    h1 {
-        margin: 10px;
+    a {
+        .tituLogo {
+            h1 {
+                margin: 10px;
+            }
+            img.logo {
+                width: 20%;
+                margin: 10px;
+            }
+        }
     }
-    img.logo {
-        width: 20%;
-        margin: 10px;
+    a:hover {
+        color: #fff;
     }
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    color: #b2ab8c;
+    .nav-link {
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: #b2ab8c;
+    }
 }
 
 #seccionPrincipal {
     height: 4000px;
-    background-image: url('../media/fondob4.jpg');
+    background-image: url('../css/assets/fondob4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
