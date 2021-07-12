@@ -4,11 +4,11 @@
   padding: 0; }
 
 .typeSeriff {
-  font-family: noto seriff;
+  font-family: Noto Seriff;
   color: white; }
 
 .typeSans {
-  font-family: varela round; }
+  font-family: Varela Round; }
 
 .bgBlack {
   background-color: rgba(0, 0, 0, 0.466); }
@@ -25,11 +25,13 @@
   position: sticky;
   top: 0px;
   z-index: 9; }
-  .head a .tituLogo h1 {
-    margin: 10px; }
-  .head a .tituLogo img.logo {
-    width: 20%;
-    margin: 10px; }
+  .head a {
+    max-width: 35%; }
+    .head a .tituLogo h1 {
+      margin: auto; }
+    .head a .tituLogo img.logo {
+      width: 35%;
+      margin: 10px; }
   .head a:hover {
     color: #fff; }
   .head .nav-link {
