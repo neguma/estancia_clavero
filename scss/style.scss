@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+
+.typeSeriff {
+    font-family: Noto serif;
+    font-size: 40px;
+    color: white;
+}
+
+.typeSans {
+    font-family: varela round;
+    font-size: 15px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(31, 34, 80);
+    background: linear-gradient(90deg, rgba(31, 34, 80, 1) 4%, rgba(3, 2, 51, 1) 100%);
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    h1 {
+        margin: 10px;
+        img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+    }
+    .nav-link {
+        color: white;
+    }
+    .nav-link:hover {
+        color: #b2ab8c;
+    }
+}
+
+#seccionPrincipal {
+    height: 4000px;
+    background-image: url('../media/fondob4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
