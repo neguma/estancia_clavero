@@ -192,6 +192,13 @@
     #seccionContacto form .modal-footer {
       border-top: 0 none; }
 
+#seccionGaleria {
+  background-image: url("../css/assets/fondob4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+
 .foot {
   position: relative;
   left: 0;
