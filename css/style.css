@@ -73,7 +73,7 @@
       line-height: 1.0285;
       text-align: center;
       z-index: 1; }
-  #seccionPrincipal .titulo2 {
+  #seccionPrincipal .title {
     color: white;
     height: 200px;
     padding: 25px;
@@ -81,6 +81,6 @@
     margin: auto;
     text-align: right;
     font-style: italic; }
-    #seccionPrincipal .titulo2 p {
+    #seccionPrincipal .title p {
       border-bottom: 1px solid white;
       padding: 10px; }
