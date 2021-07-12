@@ -26,13 +26,15 @@
   z-index: 9; }
   .head h1 {
     margin: 10px; }
-    .head h1 img {
-      width: 150px;
-      margin-bottom: 10px; }
-  .head .nav-link {
-    color: white; }
-  .head .nav-link:hover {
-    color: #b2ab8c; }
+  .head img.logo {
+    width: 20%;
+    margin: 10px; }
+
+.nav-link {
+  color: white; }
+
+.nav-link:hover {
+  color: #b2ab8c; }
 
 #seccionPrincipal {
   height: 4000px;

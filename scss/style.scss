@@ -29,17 +29,19 @@
     z-index: 9;
     h1 {
         margin: 10px;
-        img {
-            width: 150px;
-            margin-bottom: 10px;
-        }
     }
-    .nav-link {
-        color: white;
+    img.logo {
+        width: 20%;
+        margin: 10px;
     }
-    .nav-link:hover {
-        color: #b2ab8c;
-    }
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #b2ab8c;
 }
 
 #seccionPrincipal {
