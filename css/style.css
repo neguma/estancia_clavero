@@ -100,3 +100,5 @@
     #seccionPrincipal .tarjeta .tituloNosotros {
       font-size: 3em;
       margin: auto; }
+    #seccionPrincipal .tarjeta .textoNosotros {
+      margin-top: 50px; }
