@@ -130,6 +130,13 @@
     #activities .actividades .carousel-inner img:hover {
       transform: scale(1.5);
       padding: -250px; }
+  #activities .carousel-inner img {
+    width: auto;
+    height: auto;
+    transition: 0.5s all ease-in-out; }
+  #activities .carousel-inner img:hover {
+    transform: scale(1.5);
+    padding: -250px; }
 
 .foot {
   position: relative;
@@ -150,6 +157,18 @@
     width: 5%;
     padding: 5px;
     justify-content: start; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  margin: auto; }
+  .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: auto;
+    margin: auto; }
 
 * {
   margin: 0;
@@ -178,15 +197,3 @@
   .title3 p {
     border-top: 1px solid white;
     padding: 10px; }
-
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: auto;
-  margin: auto; }
-  .mapouter .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: auto;
-    width: auto;
-    margin: auto; }

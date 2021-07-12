@@ -162,4 +162,15 @@
             }
         }
     }
+    .carousel-inner {
+        img {
+            width: auto;
+            height: auto;
+            transition: 0.5s all ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.5);
+            padding: -250px;
+        }
+    }
 }
