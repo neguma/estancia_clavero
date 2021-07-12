@@ -69,6 +69,30 @@
     border-bottom: 1px solid white;
     padding: 10px; }
 
+.title3 {
+  color: white;
+  height: 200px;
+  padding: 55px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-style: italic; }
+  .title3 p {
+    border-top: 1px solid white;
+    padding: 10px; }
+
+.title2 {
+  color: white;
+  height: 200px;
+  padding: 55px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-style: italic; }
+  .title2 p {
+    border-top: 1px solid white;
+    padding: 10px; }
+
 .tarjeta {
   text-align: left;
   padding: 1rem;
@@ -89,17 +113,6 @@
 #servicios {
   margin-top: 100px;
   height: 60rem; }
-  #servicios .title2 {
-    color: white;
-    height: 200px;
-    padding: 55px;
-    width: 75%;
-    margin: auto;
-    text-align: center;
-    font-style: italic; }
-    #servicios .title2 p {
-      border-top: 1px solid white;
-      padding: 10px; }
   #servicios .box {
     color: white;
     text-align: justify;
@@ -185,15 +198,3 @@
 
 .bgBlack {
   background-color: rgba(0, 0, 0, 0.466); }
-
-.title3 {
-  color: white;
-  height: 200px;
-  padding: 55px;
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  font-style: italic; }
-  .title3 p {
-    border-top: 1px solid white;
-    padding: 10px; }
