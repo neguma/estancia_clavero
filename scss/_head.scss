@@ -30,5 +30,16 @@
     }
     .nav-link:hover {
         color: #b2ab8c;
+        background-color: none;
+    }
+    .dropdown-menu {
+        background-color: $bg-Black;
+        .dropdown-item {
+            color: white;
+        }
+        .nav-link:hover {
+            color: #b2ab8c;
+            background-color: none;
+        }
     }
 }

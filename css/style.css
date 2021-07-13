@@ -23,7 +23,15 @@
   .head .nav-link {
     color: #fff; }
   .head .nav-link:hover {
-    color: #b2ab8c; }
+    color: #b2ab8c;
+    background-color: none; }
+  .head .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.466); }
+    .head .dropdown-menu .dropdown-item {
+      color: white; }
+    .head .dropdown-menu .nav-link:hover {
+      color: #b2ab8c;
+      background-color: none; }
 
 .panel-video {
   min-width: 75%;
