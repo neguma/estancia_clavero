@@ -341,12 +341,22 @@
   .head #seccionPrincipal .textoBanner {
     font-size: 15px;
     max-width: 75%; }
-  .head #seccionPrincipal .titulo2 p {
+  .head #seccionPrincipal .title2 p {
     font-size: 2em; } }
 
 @media all and (min-width: 360px) {
   #seccionContacto .title3 {
     font-size: 1.3em;
+    width: 100%; }
+  #seccionContacto form {
+    width: 80%;
+    font-size: 1em; }
+  #seccionContacto .mapouter .title3 {
+    font-size: 1.3em;
+    width: 100%; } }
+
+@media all and (min-width: 768px) {
+  #seccionContacto .title3 {
     width: 100%; }
   #seccionContacto form {
     width: 80%;
@@ -388,6 +398,15 @@
     left: 0; }
   .foot .footerLogos img {
     width: 2rem; } }
+
+@media all and (min-width: 768px) {
+  .foot .footerText {
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    left: 0; }
+  .foot .footerLogos img {
+    width: 3rem; } }
 
 * {
   margin: 0;
