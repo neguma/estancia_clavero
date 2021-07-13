@@ -99,39 +99,39 @@
 }
 
 //VIDEO BANNER
-@media (max-width:64em) {
+@media (max-width: 64em) {
     .panel-video,
     .panel-video {
-        margin-bottom: 7.5rem
+        margin-bottom: 7.5rem;
     }
 }
 
-@media (min-width:25em) {
+@media (min-width: 25em) {
     .panel-video__titulo {
-        max-width: 24ch
+        max-width: 24ch;
     }
 }
 
-@media screen and (min-width:31.25em) {
+@media screen and (min-width: 31.25em) {
     .panel-video__titulo {
-        font-size: calc(2.875em + 1.625 * (100vw - 31.25em) / 41.875)
+        font-size: calc(2.875em + 1.625 * (100vw - 31.25em) / 41.875);
     }
 }
 
-@media screen and (min-width:73.125em) {
+@media screen and (min-width: 73.125em) {
     .panel-video__titulo {
-        font-size: 4.5em
+        font-size: 4.5em;
     }
 }
 
-@media screen and (min-width:31.25em) {
+@media screen and (min-width: 31.25em) {
     .panel-video__titulo {
-        font-size: calc(2.875em + 2.125 * (100vw - 31.25em) / 41.875)
+        font-size: calc(2.875em + 2.125 * (100vw - 31.25em) / 41.875);
     }
 }
 
-@media screen and (min-width:73.125em) {
+@media screen and (min-width: 73.125em) {
     .panel-video__titulo {
-        font-size: 5em
+        font-size: 5em;
     }
 }
