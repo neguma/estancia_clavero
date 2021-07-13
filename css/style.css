@@ -109,7 +109,8 @@
     font-size: 3em;
     margin: auto; }
   .tarjeta .textoNosotros {
-    margin-top: 50px; }
+    margin-top: 50px;
+    font-size: 1.2em; }
 
 #servicios {
   margin-top: 100px;
@@ -129,8 +130,7 @@
 
 #activities {
   background-color: rgba(0, 0, 0, 0.466);
-  color: white;
-  border-top: 1px solid white; }
+  color: white; }
   #activities .actividades {
     padding: 10px; }
     #activities .actividades ul li {
@@ -149,8 +149,10 @@
     height: auto;
     transition: 0.5s all ease-in-out; }
   #activities .carousel-inner img:hover {
-    transform: scale(1.5);
-    padding: -250px; }
+    transform: scale(1.5); }
+  #activities .card-text {
+    font-size: 1.5em;
+    margin: 25px; }
 
 .mapouter {
   position: relative;
