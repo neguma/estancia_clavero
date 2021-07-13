@@ -189,8 +189,6 @@
   background-attachment: fixed;
   background-position: center center; }
   #seccionContacto form {
-    width: 30%;
-    margin: auto;
     color: white;
     background-color: rgba(0, 0, 0, 0.466);
     padding: 15px;
@@ -198,7 +196,8 @@
     border-radius: 10px; }
     #seccionContacto form .btn {
       background-color: #1f2250;
-      border: 0 none; }
+      border: 0 none;
+      margin: 50px; }
     #seccionContacto form .btn:hover {
       background-color: #b2ab8c; }
     #seccionContacto form .btn:focus {
@@ -349,7 +348,7 @@
     font-size: 1.3em;
     width: 100%; }
   #seccionContacto form {
-    width: 80%;
+    width: 60%;
     font-size: 1em; }
   #seccionContacto .mapouter .title3 {
     font-size: 1.3em;
@@ -357,12 +356,26 @@
 
 @media all and (min-width: 768px) {
   #seccionContacto .title3 {
-    width: 100%; }
-  #seccionContacto form {
-    width: 80%;
-    font-size: 1em; }
+    width: 100%;
+    font-size: 1.5em; }
+  #seccionContacto .form {
+    width: 50%; }
   #seccionContacto .mapouter .title3 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    width: 100%; } }
+
+@media all and (min-width: 1280px) {
+  #seccionContacto .title3 {
+    width: 100%;
+    font-size: 1.8em; }
+  #seccionContacto form {
+    width: 100%;
+    font-size: 1em; }
+    #seccionContacto form .form-group {
+      width: 30%;
+      margin: auto; }
+  #seccionContacto .mapouter .title3 {
+    font-size: 1.8em;
     width: 100%; } }
 
 @media (max-width: 64em) {

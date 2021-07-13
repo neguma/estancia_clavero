@@ -5,8 +5,6 @@
     background-attachment: fixed;
     background-position: center center;
     form {
-        width: 30%;
-        margin: auto;
         color: white;
         background-color: rgba(0, 0, 0, 0.466);
         padding: 15px;
@@ -15,6 +13,7 @@
         .btn {
             background-color: rgb(31, 34, 80);
             border: 0 none;
+            margin: 50px;
         }
         .btn:hover {
             background-color: #b2ab8c;
