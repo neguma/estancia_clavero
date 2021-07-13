@@ -258,15 +258,6 @@
   display: table;
   clear: both; }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0; } }
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%; } }
-
 .foot {
   position: relative;
   left: 0;
@@ -343,13 +334,27 @@
   .head #seccionPrincipal .title2 p {
     font-size: 2em; } }
 
+@media only screen and (max-width: 768px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0; } }
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%; } }
+
 @media all and (min-width: 360px) {
   #seccionContacto .title3 {
     font-size: 1.3em;
     width: 100%; }
   #seccionContacto form {
-    width: 60%;
-    font-size: 1em; }
+    width: 100%;
+    font-size: 0.8em; }
+    #seccionContacto form .form-group {
+      width: 50%;
+      margin: auto; }
+      #seccionContacto form .form-group .form-control {
+        font-size: 0.8em; }
   #seccionContacto .mapouter .title3 {
     font-size: 1.3em;
     width: 100%; } }
@@ -357,9 +362,15 @@
 @media all and (min-width: 768px) {
   #seccionContacto .title3 {
     width: 100%;
-    font-size: 1.5em; }
-  #seccionContacto .form {
-    width: 50%; }
+    font-size: 1.2em; }
+  #seccionContacto form {
+    width: 100%;
+    font-size: 1em; }
+    #seccionContacto form .form-group {
+      width: 50%;
+      margin: auto; }
+      #seccionContacto form .form-group .form-control {
+        font-size: 1em; }
   #seccionContacto .mapouter .title3 {
     font-size: 1.5em;
     width: 100%; } }
@@ -377,11 +388,6 @@
   #seccionContacto .mapouter .title3 {
     font-size: 1.8em;
     width: 100%; } }
-
-@media (max-width: 64em) {
-  .panel-video,
-  .panel-video {
-    margin-bottom: 7.5rem; } }
 
 @media (min-width: 25em) {
   .panel-video__titulo {

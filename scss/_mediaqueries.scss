@@ -99,6 +99,21 @@
 }
 
 //
+// SECCION GALERIA
+@media only screen and (max-width: 768px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+//
 // SECCION CONTACTO
 @media all and (min-width: 360px) {
     #seccionContacto {
@@ -107,8 +122,15 @@
             width: 100%;
         }
         form {
-            width: 60%;
-            font-size: 1em;
+            width: 100%;
+            font-size: 0.8em;
+            .form-group {
+                width: 50%;
+                margin: auto;
+                .form-control {
+                    font-size: 0.8em;
+                }
+            }
         }
         .mapouter {
             .title3 {
@@ -123,10 +145,18 @@
     #seccionContacto {
         .title3 {
             width: 100%;
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
-        .form {
-            width: 50%;
+        form {
+            width: 100%;
+            font-size: 1em;
+            .form-group {
+                width: 50%;
+                margin: auto;
+                .form-control {
+                    font-size: 1em;
+                }
+            }
         }
         .mapouter {
             .title3 {
@@ -162,13 +192,6 @@
 
 //
 //VIDEO BANNER
-@media (max-width: 64em) {
-    .panel-video,
-    .panel-video {
-        margin-bottom: 7.5rem;
-    }
-}
-
 @media (min-width: 25em) {
     .panel-video__titulo {
         max-width: 24ch;
