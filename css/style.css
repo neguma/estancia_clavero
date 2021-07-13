@@ -34,30 +34,38 @@
       background-color: none; }
 
 .panel-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 75%;
   margin-top: auto;
   padding-top: 3vh;
   height: calc((100vh + 60px) - 25vw);
   position: relative; }
-  .panel-video video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%; }
-  .panel-video .panel-video--espacio {
-    margin-bottom: 3.75rem; }
-  .panel-video .panel-video__titulo {
-    position: absolute;
-    left: 50%;
-    top: 46%;
-    margin: 0;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    opacity: 0;
-    width: 30%;
-    font-size: 4em;
-    line-height: 1.0285;
-    text-align: center;
-    z-index: 1; }
+
+.panel-video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+.panel-video .panel-video--espacio {
+  margin-bottom: 3.75rem; }
+
+.panel-video .panel-video__titulo {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -35px);
+  margin: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  opacity: 0;
+  width: 100%;
+  text-transform: none;
+  font-size: 2.875em;
+  line-height: 1.0285;
+  text-align: center;
+  z-index: 1; }
 
 #seccionPrincipal {
   background-image: url("../css/assets/fondob4.jpg");
@@ -202,6 +210,64 @@
     #seccionContacto form .modal-footer {
       border-top: 0 none; }
 
+* {
+  box-sizing: border-box; }
+
+#seccionGaleria {
+  background-image: url("../css/assets/fondob4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+
+#contenedorImagenes .card {
+  background-color: transparent;
+  border: 0px; }
+  #contenedorImagenes .card .btn-link {
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    text-align: center; }
+  #contenedorImagenes .card .btn-link:hover {
+    text-decoration: none; }
+  #contenedorImagenes .card .btn-link:active {
+    box-shadow: none;
+    border: none; }
+
+.accordion {
+  padding: 30px;
+  margin: auto; }
+  .accordion .card-header h2 {
+    border-bottom: 1px solid #fff;
+    color: white; }
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%; }
+  .responsive div.gallery img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px;
+    border-radius: 15px; }
+  .responsive div.gallery img:hover {
+    transform: scale(1.1);
+    transition: 250ms linear; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0; } }
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%; } }
+
 .foot {
   position: relative;
   left: 0;
@@ -314,6 +380,7 @@
 
 .typeSans {
   font-family: Varela Round;
+  color: white;
   font-size: 15px; }
 
 .bgBlack {
