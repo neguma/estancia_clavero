@@ -8,24 +8,25 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    #contenedorImagenes {
-        .imgGallery {
+}
+
+#contenedorImagenes {
+    .imgGallery {
+        padding: 10px;
+    }
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+        div.gallery img {
+            width: 100%;
             padding: 10px;
+            height: auto;
         }
-        .responsive {
-            padding: 0 6px;
-            float: left;
-            width: 24.99999%;
-            div.gallery img {
-                width: 100%;
-                padding: 10px;
-                height: auto;
-            }
-            .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
         }
     }
 }
