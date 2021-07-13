@@ -192,28 +192,29 @@
     #seccionContacto form .modal-footer {
       border-top: 0 none; }
 
+* {
+  box-sizing: border-box; }
+
 #seccionGaleria {
   background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; }
-
-.imgGallery {
-  padding: 20px; }
-
-div.gallery img {
-  width: 100%;
-  padding: 15px;
-  height: auto; }
-
-* {
-  box-sizing: border-box; }
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%; }
+  #seccionGaleria #contenedorImagenes .imgGallery {
+    padding: 10px; }
+  #seccionGaleria #contenedorImagenes .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%; }
+    #seccionGaleria #contenedorImagenes .responsive div.gallery img {
+      width: 100%;
+      padding: 10px;
+      height: auto; }
+    #seccionGaleria #contenedorImagenes .responsive .clearfix:after {
+      content: "";
+      display: table;
+      clear: both; }
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -223,11 +224,6 @@ div.gallery img {
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%; } }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
 
 .foot {
   position: relative;

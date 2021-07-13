@@ -1,29 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 #seccionGaleria {
     background-image: url('../css/assets/fondob4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-}
-
-.imgGallery {
-    padding: 20px;
-}
-
-div.gallery img {
-    width: 100%;
-    padding: 15px;
-    height: auto;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+    #contenedorImagenes {
+        .imgGallery {
+            padding: 10px;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+            div.gallery img {
+                width: 100%;
+                padding: 10px;
+                height: auto;
+            }
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -37,10 +41,4 @@ div.gallery img {
     .responsive {
         width: 100%;
     }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
