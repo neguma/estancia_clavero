@@ -11,24 +11,54 @@
 }
 
 #contenedorImagenes {
-    .imgGallery {
-        padding: 10px;
-    }
-    .responsive {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%;
-        div.gallery img {
-            width: 100%;
-            padding: 10px;
-            height: auto;
+    .card {
+        background-color: transparent;
+        border: 0px;
+        .btn-link {
+            color: #fff;
+            font-size: 1em;
+            border: none;
+            text-align: center;
         }
-        .clearfix:after {
-            content: "";
-            display: table;
-            clear: both;
+        .btn-link:hover {
+            text-decoration: none;
+        }
+        .btn-link:active {
+            box-shadow: none;
+            border: none;
         }
     }
+}
+
+.accordion {
+    padding: 30px;
+    margin: auto;
+    .card-header h2 {
+        border-bottom: 1px solid #fff;
+        color: white;
+    }
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 12px;
+        border-radius: 15px;
+    }
+    div.gallery img:hover {
+        transform: scale(1.1);
+        transition: 250ms linear;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media only screen and (max-width: 700px) {
