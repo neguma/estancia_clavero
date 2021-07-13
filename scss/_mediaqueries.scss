@@ -100,7 +100,28 @@
 
 //
 // SECCION GALERIA
+@media all and (min-width:1280px) {
+    #contenedorImagenes {
+        .title2 {
+            font-size: 1.8em;
+            width: 100%;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    #contenedorImagenes {
+        .title2 {
+            font-size: 1.3em;
+            width: 100%;
+        }
+        h2 {
+            font-size: 1.3em;
+        }
+    }
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
