@@ -282,7 +282,7 @@
     padding: 20px;
     margin: auto; }
   .foot .footerLogos img {
-    width: 5%;
+    width: 3rem;
     padding: 5px;
     justify-content: start; }
 
@@ -344,6 +344,17 @@
   .head #seccionPrincipal .titulo2 p {
     font-size: 2em; } }
 
+@media all and (min-width: 360px) {
+  #seccionContacto .title3 {
+    font-size: 1.3em;
+    width: 100%; }
+  #seccionContacto form {
+    width: 80%;
+    font-size: 1em; }
+  #seccionContacto .mapouter .title3 {
+    font-size: 1.3em;
+    width: 100%; } }
+
 @media (max-width: 64em) {
   .panel-video,
   .panel-video {
@@ -368,6 +379,15 @@
 @media screen and (min-width: 73.125em) {
   .panel-video__titulo {
     font-size: 5em; } }
+
+@media all and (min-width: 360px) {
+  .foot .footerText {
+    font-size: 12px;
+    position: relative;
+    bottom: 0;
+    left: 0; }
+  .foot .footerLogos img {
+    width: 2rem; } }
 
 * {
   margin: 0;
