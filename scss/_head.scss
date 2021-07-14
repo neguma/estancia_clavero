@@ -1,0 +1,45 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: $bg-Blue;
+    background: $bg-Blue-Gradient;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    a {
+        max-width: 35%;
+        .tituLogo {
+            h1 {
+                margin: auto;
+            }
+            img.logo {
+                width: 35%;
+                margin: 10px;
+            }
+        }
+    }
+    a:hover {
+        color: #fff;
+    }
+    .nav-link {
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: #b2ab8c;
+        background-color: none;
+    }
+    .dropdown-menu {
+        background-color: $bg-Black;
+        .dropdown-item {
+            color: white;
+        }
+        .nav-link:hover {
+            color: #b2ab8c;
+            background-color: none;
+        }
+    }
+}
