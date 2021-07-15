@@ -176,6 +176,43 @@
   background-attachment: fixed;
   background-position: center center; }
 
+#contenedorPaquetes .title2 {
+  font-size: 2em;
+  font-style: normal; }
+
+#contenedorPaquetes .card {
+  padding: 25px;
+  margin: 50px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none; }
+  #contenedorPaquetes .card .card-body {
+    border-radius: 150px; }
+    #contenedorPaquetes .card .card-body .card-title {
+      font-size: 2em;
+      border-bottom: 1px solid #fff; }
+  #contenedorPaquetes .card li {
+    background-color: transparent;
+    font-size: 1.2em; }
+
+#contenedorPaquetes .card:hover {
+  background-color: yellow;
+  border-radius: 10px; }
+
+@media all and (min-width: 768px) {
+  .divCards {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  .card-body {
+    width: 100%; } }
+
+@media all and (min-width: 1000px) {
+  .divCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+
 * {
   box-sizing: border-box; }
 
