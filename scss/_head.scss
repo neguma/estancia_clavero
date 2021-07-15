@@ -1,6 +1,9 @@
 .navbar {
     background: $bg-Blue;
     background: $bg-Blue-Gradient;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
     .nav-link {
         color: #fff;
         text-decoration: none;
