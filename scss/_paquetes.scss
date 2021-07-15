@@ -69,7 +69,26 @@
     }
 }
 
-@media all and(min-width:768px) {
+@media all and(max-width:525px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 1.3em;
+        }
+        .divCards {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media all and(max-width:768px) {
     #contenedorPaquetes {
         .title2 p {
             font-size: 1.3em;
