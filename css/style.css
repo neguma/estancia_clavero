@@ -195,7 +195,16 @@
     #contenedorPaquetes .card .card-body .card-title2 {
       text-align: center;
       font-size: 2em;
-      transition: 200ms linear; }
+      transition: 200ms linear;
+      width: 50%;
+      margin: auto;
+      background-color: #b2ab8c;
+      border-radius: 10px;
+      color: #000; }
+    #contenedorPaquetes .card .card-body a {
+      margin: auto;
+      font-size: 1.2em;
+      font-weight: 700; }
   #contenedorPaquetes .card li {
     background-color: transparent;
     font-size: 1.2em; }
@@ -209,23 +218,25 @@
     color: black;
     border-bottom: 1px solid #000; }
   #contenedorPaquetes .card:hover .card-title2 {
-    font-size: 3em;
     background-color: rgba(0, 0, 0, 0.466);
     border-radius: 10px;
-    max-width: 80%;
-    margin: auto; }
+    color: white; }
   #contenedorPaquetes .card:hover .card-text {
     color: #000; }
   #contenedorPaquetes .card:hover .list-group-item {
     color: black; }
 
 @media all and (min-width: 768px) {
-  .divCards {
+  #contenedorPaquetes .title2 p {
+    font-size: 1.3em; }
+  #contenedorPaquetes .divCards {
     display: flex;
     flex-direction: column;
     align-content: center; }
-  .card-body {
-    width: 100%; } }
+  #contenedorPaquetes .card-body {
+    width: 100%; }
+  #contenedorPaquetes p.typeSans.title2 {
+    font-size: 1.3em; } }
 
 @media all and (min-width: 1000px) {
   .divCards {
@@ -446,12 +457,9 @@
 
 @media all and (min-width: 360px) {
   .foot .footerText {
-    font-size: 12px;
     position: relative;
     bottom: 0;
-    left: 0; }
-  .foot .footerLogos img {
-    width: 2rem; } }
+    left: 0; } }
 
 @media all and (min-width: 768px) {
   .foot .footerText {
