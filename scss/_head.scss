@@ -1,33 +1,10 @@
-.head {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
     background: $bg-Blue;
     background: $bg-Blue-Gradient;
-    color: white;
-    position: sticky;
-    top: 0px;
-    z-index: 9;
-    a {
-        max-width: 35%;
-        .tituLogo {
-            h1 {
-                margin: auto;
-            }
-            img.logo {
-                width: 35%;
-                margin: 10px;
-            }
-        }
-    }
-    a:hover {
-        color: #fff;
-    }
     .nav-link {
         color: #fff;
         text-decoration: none;
+        display: inline-block;
         position: relative;
     }
     .nav-link:hover {
@@ -49,14 +26,12 @@
         width: 100%;
         left: 0;
     }
-    .dropdown-menu {
-        background-color: $bg-Black;
-        .dropdown-item {
-            color: white;
+    a {
+        h1 {
+            margin-top: 10px;
         }
-        .nav-link:hover {
-            color: #b2ab8c;
-            background-color: none;
-        }
+    }
+    a:hover {
+        color: #b2ab8c;
     }
 }
