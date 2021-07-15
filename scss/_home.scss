@@ -48,6 +48,10 @@
     }
 }
 
+.mas:hover {
+    color: #b2ab8c;
+}
+
 .tarjeta {
     text-align: left;
     padding: 1rem;
@@ -120,17 +124,13 @@
             transition: 0.5s all ease-in-out;
         }
         img:hover {
-            transform: scale(1.5);
+            transform: scale(1.1);
         }
     }
     .card-body {
         .card-text {
             font-size: 1.5em;
             margin: 25px;
-        }
-        p.packages:hover {
-            color: #b2ab8c;
-            width: 20%;
         }
     }
 }

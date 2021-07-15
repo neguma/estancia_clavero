@@ -109,6 +109,9 @@
     border-top: 1px solid white;
     padding: 10px; }
 
+.mas:hover {
+  color: #b2ab8c; }
+
 .tarjeta {
   text-align: left;
   padding: 1rem;
@@ -164,13 +167,10 @@
     height: auto;
     transition: 0.5s all ease-in-out; }
   #activities .carousel-inner img:hover {
-    transform: scale(1.5); }
+    transform: scale(1.1); }
   #activities .card-body .card-text {
     font-size: 1.5em;
     margin: 25px; }
-  #activities .card-body p.packages:hover {
-    color: #b2ab8c;
-    width: 20%; }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
