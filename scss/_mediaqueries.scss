@@ -1,3 +1,44 @@
+//HEAD
+@media all and (max-width:768px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media all and (min-width:768px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media all and (min-width:992px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: block;
+    }
+}
+
+//
 // SECCION GALERIA
 @media all and (min-width:1280px) {
     #contenedorImagenes {
