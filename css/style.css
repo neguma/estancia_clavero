@@ -251,7 +251,9 @@
   #contenedorPaquetes .card-body {
     width: 100%; }
   #contenedorPaquetes p.typeSans.title2 {
-    font-size: 1.3em; } }
+    font-size: 1.3em; }
+  #contenedorPaquetes .descripcion {
+    font-size: 2em; } }
 
 @media all and (min-width: 1000px) {
   .divCards {
