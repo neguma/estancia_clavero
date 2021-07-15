@@ -12,16 +12,22 @@
         font-style: normal;
     }
     .card {
-        padding: 20px;
-        margin: auto;
+        padding: 35px;
+        margin-bottom: 5rem;
         border-radius: 0px;
         background-color: transparent;
         border: none;
+        transition: 200ms linear;
         .card-body {
             border-radius: 10px;
             .card-title {
                 font-size: 2em;
                 border-bottom: 1px solid #fff;
+            }
+            .card-title2 {
+                text-align: center;
+                font-size: 2em;
+                transition: 200ms linear;
             }
         }
         li {
@@ -33,8 +39,25 @@
         }
     }
     .card:hover {
-        background-color: $bg-Black;
+        background-color: #b2ab8c;
         border-radius: 10px;
+        .card-title {
+            color: black;
+            border-bottom: 1px solid #000;
+        }
+        .card-title2 {
+            font-size: 3em;
+            background-color: $bg-Black;
+            border-radius: 10px;
+            max-width: 80%;
+            margin: auto;
+        }
+        .card-text {
+            color: #000;
+        }
+        .list-group-item {
+            color: black;
+        }
     }
 }
 

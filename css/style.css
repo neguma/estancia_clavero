@@ -181,16 +181,21 @@
   font-style: normal; }
 
 #contenedorPaquetes .card {
-  padding: 20px;
-  margin: auto;
+  padding: 35px;
+  margin-bottom: 5rem;
   border-radius: 0px;
   background-color: transparent;
-  border: none; }
+  border: none;
+  transition: 200ms linear; }
   #contenedorPaquetes .card .card-body {
     border-radius: 10px; }
     #contenedorPaquetes .card .card-body .card-title {
       font-size: 2em;
       border-bottom: 1px solid #fff; }
+    #contenedorPaquetes .card .card-body .card-title2 {
+      text-align: center;
+      font-size: 2em;
+      transition: 200ms linear; }
   #contenedorPaquetes .card li {
     background-color: transparent;
     font-size: 1.2em; }
@@ -198,8 +203,21 @@
     border-radius: 10px; }
 
 #contenedorPaquetes .card:hover {
-  background-color: rgba(0, 0, 0, 0.466);
+  background-color: #b2ab8c;
   border-radius: 10px; }
+  #contenedorPaquetes .card:hover .card-title {
+    color: black;
+    border-bottom: 1px solid #000; }
+  #contenedorPaquetes .card:hover .card-title2 {
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    max-width: 80%;
+    margin: auto; }
+  #contenedorPaquetes .card:hover .card-text {
+    color: #000; }
+  #contenedorPaquetes .card:hover .list-group-item {
+    color: black; }
 
 @media all and (min-width: 768px) {
   .divCards {
