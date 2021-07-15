@@ -169,44 +169,12 @@
     font-size: 1.5em;
     margin: 25px; }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: auto;
-  margin: auto; }
-  .mapouter .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: auto;
-    width: auto;
-    margin: auto; }
-
-#seccionContacto {
+#seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; }
-  #seccionContacto form {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.466);
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 10px; }
-    #seccionContacto form .btn {
-      background-color: #1f2250;
-      border: 0 none;
-      margin: 50px; }
-    #seccionContacto form .btn:hover {
-      background-color: #b2ab8c; }
-    #seccionContacto form .btn:focus {
-      background-color: #7e7964; }
-    #seccionContacto form .modal-content {
-      background-color: rgba(0, 0, 0, 0.664); }
-    #seccionContacto form .modal-header {
-      border-bottom: 0 none; }
-    #seccionContacto form .modal-footer {
-      border-top: 0 none; }
 
 * {
   box-sizing: border-box; }
@@ -256,6 +224,45 @@
   content: "";
   display: table;
   clear: both; }
+
+#seccionContacto {
+  background-image: url("../css/assets/fondob4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+  #seccionContacto form {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px; }
+    #seccionContacto form .btn {
+      background-color: #1f2250;
+      border: 0 none;
+      margin: 50px; }
+    #seccionContacto form .btn:hover {
+      background-color: #b2ab8c; }
+    #seccionContacto form .btn:focus {
+      background-color: #7e7964; }
+    #seccionContacto form .modal-content {
+      background-color: rgba(0, 0, 0, 0.664); }
+    #seccionContacto form .modal-header {
+      border-bottom: 0 none; }
+    #seccionContacto form .modal-footer {
+      border-top: 0 none; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  margin: auto; }
+  .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: auto;
+    margin: auto; }
 
 .foot {
   position: relative;
@@ -405,7 +412,7 @@
 .typeSeriff {
   font-family: Noto Seriff;
   color: white;
-  font-size: 30px; }
+  font-size: 40px; }
 
 .typeSans {
   font-family: Varela Round;

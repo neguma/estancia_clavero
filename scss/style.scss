@@ -2,9 +2,10 @@
 @import "head";
 @import "video";
 @import "home";
-@import "mapa";
-@import "contacto";
+@import "paquetes";
 @import "galeria";
+@import "contacto";
+@import "mapa";
 @import "footer";
 @import "mediaqueries";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Varela+Round&display=swap');
@@ -16,7 +17,7 @@
 .typeSeriff {
     font-family: $seriff;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .typeSans {
