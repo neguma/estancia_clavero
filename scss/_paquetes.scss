@@ -32,6 +32,9 @@
     .card:hover {
         background-color: yellow;
         border-radius: 10px;
+        li {
+            text-decoration: none;
+        }
     }
 }
 

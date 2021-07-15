@@ -198,6 +198,8 @@
 #contenedorPaquetes .card:hover {
   background-color: yellow;
   border-radius: 10px; }
+  #contenedorPaquetes .card:hover li {
+    text-decoration: none; }
 
 @media all and (min-width: 768px) {
   .divCards {
