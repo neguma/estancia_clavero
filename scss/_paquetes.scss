@@ -23,12 +23,13 @@
             .card-title {
                 font-size: 2em;
                 border-bottom: 1px solid #fff;
+                font-weight: 700;
             }
             .card-title2 {
                 text-align: center;
                 font-size: 2em;
                 transition: 200ms linear;
-                width: 50%;
+                width: 100%;
                 margin: auto;
                 background-color: #b2ab8c;
                 border-radius: 10px;
@@ -57,7 +58,6 @@
         }
         .card-title2 {
             background-color: $bg-Black;
-            border-radius: 10px;
             color: white;
         }
         .card-text {
