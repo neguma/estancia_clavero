@@ -12,13 +12,13 @@
         font-style: normal;
     }
     .card {
-        padding: 25px;
-        margin: 50px;
+        padding: 20px;
+        margin: auto;
         border-radius: 0px;
         background-color: transparent;
         border: none;
         .card-body {
-            border-radius: 150px;
+            border-radius: 10px;
             .card-title {
                 font-size: 2em;
                 border-bottom: 1px solid #fff;
@@ -28,13 +28,13 @@
             background-color: transparent;
             font-size: 1.2em;
         }
+        img {
+            border-radius: 10px;
+        }
     }
     .card:hover {
-        background-color: yellow;
+        background-color: $bg-Black;
         border-radius: 10px;
-        li {
-            text-decoration: none;
-        }
     }
 }
 
