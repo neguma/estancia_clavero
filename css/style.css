@@ -183,8 +183,7 @@
   background-position: center center; }
 
 #contenedorPaquetes .title2 {
-  font-size: 2em;
-  font-style: normal; }
+  font-style: italic; }
 
 #contenedorPaquetes .card {
   padding: 35px;
@@ -231,9 +230,9 @@
   #contenedorPaquetes .card:hover .list-group-item {
     color: black; }
 
-@media all and (max-width: 525px) {
+@media all and (max-width: 560px) {
   #contenedorPaquetes .title2 p {
-    font-size: 1.3em; }
+    font-size: 3em; }
   #contenedorPaquetes .divCards {
     display: flex;
     flex-direction: column;
@@ -245,7 +244,7 @@
 
 @media all and (max-width: 768px) {
   #contenedorPaquetes .title2 p {
-    font-size: 1.3em; }
+    font-size: 3em; }
   #contenedorPaquetes .divCards {
     display: flex;
     flex-direction: column;
@@ -261,7 +260,9 @@
   .divCards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  #contenedorPaquetes .descripcion {
+    font-size: 1.4em; } }
 
 * {
   box-sizing: border-box; }
