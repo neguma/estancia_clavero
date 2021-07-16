@@ -129,17 +129,12 @@
   .tarjeta .cardNosotros {
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 30rem; }
+    background-attachment: fixed; }
     .tarjeta .cardNosotros .tituloNosotros {
-      font-size: 3em;
-      margin: auto;
-      width: 50%; }
+      margin: auto; }
     .tarjeta .cardNosotros .textoNosotros {
-      width: 50%;
       margin: auto;
-      margin-top: 50px;
-      font-size: 1.2em; }
+      margin-top: 50px; }
 
 #servicios .box {
   color: white;
@@ -184,7 +179,7 @@
   display: flex;
   flex-direction: row; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 991px) {
   .boxInfo {
     display: flex;
     flex-direction: column; }
@@ -193,15 +188,14 @@
   .cardNosotros {
     display: flex;
     flex-direction: column; }
-  .tarjeta .cardImage {
-    width: 50%;
-    padding: 20px; }
-  .tarjeta .tituloNosotros {
-    font-size: 1.5em;
-    margin: auto; }
-  .tarjeta .textoNosotros {
-    margin-top: 50px;
-    font-size: 0.8em; } }
+    .cardNosotros .tarjeta .tituloNosotros {
+      font-size: 0.1em;
+      margin: auto; }
+    .cardNosotros .tarjeta .textoNosotros {
+      margin-top: 50px;
+      font-size: 0.1em; }
+  .actividades ul li {
+    font-size: 1px; } }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");

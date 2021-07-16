@@ -68,17 +68,12 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 30rem;
         .tituloNosotros {
-            font-size: 3em;
             margin: auto;
-            width: 50%;
         }
         .textoNosotros {
-            width: 50%;
             margin: auto;
             margin-top: 50px;
-            font-size: 1.2em;
         }
     }
 }
@@ -149,7 +144,7 @@
 
 @media all and(max-width:560px) {}
 
-@media all and(max-width:768px) {
+@media all and(max-width:991px) {
     .boxInfo {
         display: flex;
         flex-direction: column;
@@ -160,19 +155,20 @@
     .cardNosotros {
         display: flex;
         flex-direction: column;
+        .tarjeta {
+            .tituloNosotros {
+                font-size: 0.1em;
+                margin: auto;
+            }
+            .textoNosotros {
+                margin-top: 50px;
+                font-size: 0.1em;
+            }
+        }
     }
-    .tarjeta {
-        .cardImage {
-            width: 50%;
-            padding: 20px;
-        }
-        .tituloNosotros {
-            font-size: 1.5em;
-            margin: auto;
-        }
-        .textoNosotros {
-            margin-top: 50px;
-            font-size: 0.8em;
+    .actividades {
+        ul li {
+            font-size: 1px
         }
     }
 }
