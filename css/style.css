@@ -126,28 +126,33 @@
   .tarjeta .cardImage {
     width: 50%;
     padding: 20px; }
-  .tarjeta .tituloNosotros {
-    font-size: 3em;
-    margin: auto; }
-  .tarjeta .textoNosotros {
-    margin-top: 50px;
-    font-size: 1.2em; }
+  .tarjeta .cardNosotros {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 30rem; }
+    .tarjeta .cardNosotros .tituloNosotros {
+      font-size: 3em;
+      margin: auto;
+      width: 50%; }
+    .tarjeta .cardNosotros .textoNosotros {
+      width: 50%;
+      margin: auto;
+      margin-top: 50px;
+      font-size: 1.2em; }
 
-#servicios {
-  margin-top: 100px;
-  height: 60rem; }
-  #servicios .box {
-    color: white;
-    text-align: justify;
-    margin: auto;
-    padding: 30px; }
-    #servicios .box img {
-      width: 100%;
-      border-radius: 5px; }
-    #servicios .box span {
-      font-size: 2em; }
-    #servicios .box p {
-      font-size: 1em; }
+#servicios .box {
+  color: white;
+  text-align: justify;
+  margin: auto;
+  padding: 30px; }
+  #servicios .box img {
+    width: 100%;
+    border-radius: 5px; }
+  #servicios .box span {
+    font-size: 2em; }
+  #servicios .box p {
+    font-size: 1em; }
 
 #activities {
   background-color: rgba(0, 0, 0, 0.466);
@@ -174,6 +179,29 @@
   #activities .card-body .card-text {
     font-size: 1.5em;
     margin: 25px; }
+
+.boxInfo {
+  display: flex;
+  flex-direction: row; }
+
+@media all and (max-width: 768px) {
+  .boxInfo {
+    display: flex;
+    flex-direction: column; }
+    .boxInfo .box {
+      width: 100%; }
+  .cardNosotros {
+    display: flex;
+    flex-direction: column; }
+  .tarjeta .cardImage {
+    width: 50%;
+    padding: 20px; }
+  .tarjeta .tituloNosotros {
+    font-size: 1.5em;
+    margin: auto; }
+  .tarjeta .textoNosotros {
+    margin-top: 50px;
+    font-size: 0.8em; } }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
