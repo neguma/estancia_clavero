@@ -166,9 +166,14 @@
             }
         }
     }
-    .actividades {
-        ul li {
-            font-size: 1px
+    #activities {
+        .card-body {
+            .card-text {
+                font-size: 1em;
+            }
+        }
+        .actividades {
+            font-size: 0.7em;
         }
     }
 }

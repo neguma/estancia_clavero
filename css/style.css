@@ -194,8 +194,10 @@
     .cardNosotros .tarjeta .textoNosotros {
       margin-top: 50px;
       font-size: 0.1em; }
-  .actividades ul li {
-    font-size: 1px; } }
+  #activities .card-body .card-text {
+    font-size: 1em; }
+  #activities .actividades {
+    font-size: 0.7em; } }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
