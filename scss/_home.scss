@@ -70,10 +70,12 @@
         background-attachment: fixed;
         .tituloNosotros {
             margin: auto;
+            width: 50%;
         }
         .textoNosotros {
             margin: auto;
             margin-top: 50px;
+            width: 50%;
         }
     }
 }
@@ -142,8 +144,6 @@
     flex-direction: row;
 }
 
-@media all and(max-width:560px) {}
-
 @media all and(max-width:991px) {
     .boxInfo {
         display: flex;
@@ -178,4 +178,18 @@
     }
 }
 
-@media all and(min-width:1000px) {}
+@media all and(min-width:1000px) {
+    .cardNosotros {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .tituloNosotros {
+            margin: auto;
+        }
+        .textoNosotros {
+            margin: auto;
+            margin-top: 50px;
+            font-size: 1.2em;
+        }
+    }
+}

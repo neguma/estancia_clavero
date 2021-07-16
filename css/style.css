@@ -131,10 +131,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed; }
     .tarjeta .cardNosotros .tituloNosotros {
-      margin: auto; }
+      margin: auto;
+      width: 50%; }
     .tarjeta .cardNosotros .textoNosotros {
       margin: auto;
-      margin-top: 50px; }
+      margin-top: 50px;
+      width: 50%; }
 
 #servicios .box {
   color: white;
@@ -198,6 +200,18 @@
     font-size: 1em; }
   #activities .actividades {
     font-size: 0.7em; } }
+
+@media all and (min-width: 1000px) {
+  .cardNosotros {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    .cardNosotros .tituloNosotros {
+      margin: auto; }
+    .cardNosotros .textoNosotros {
+      margin: auto;
+      margin-top: 50px;
+      font-size: 1.2em; } }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
