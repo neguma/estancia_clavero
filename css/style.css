@@ -112,6 +112,9 @@
     border-top: 1px solid white;
     padding: 10px; }
 
+.mas:hover {
+  color: #b2ab8c; }
+
 .tarjeta {
   text-align: left;
   padding: 1rem;
@@ -167,49 +170,98 @@
     height: auto;
     transition: 0.5s all ease-in-out; }
   #activities .carousel-inner img:hover {
-    transform: scale(1.5); }
-  #activities .card-text {
+    transform: scale(1.1); }
+  #activities .card-body .card-text {
     font-size: 1.5em;
     margin: 25px; }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: auto;
-  margin: auto; }
-  .mapouter .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: auto;
-    width: auto;
-    margin: auto; }
-
-#seccionContacto {
+#seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; }
-  #seccionContacto form {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.466);
-    padding: 15px;
-    font-size: 20px;
+
+#contenedorPaquetes .title2 {
+  font-size: 2em;
+  font-style: normal; }
+
+#contenedorPaquetes .card {
+  padding: 35px;
+  margin-bottom: 5rem;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none;
+  transition: 200ms linear; }
+  #contenedorPaquetes .card .card-body {
     border-radius: 10px; }
-    #seccionContacto form .btn {
-      background-color: #1f2250;
-      border: 0 none;
-      margin: 50px; }
-    #seccionContacto form .btn:hover {
-      background-color: #b2ab8c; }
-    #seccionContacto form .btn:focus {
-      background-color: #7e7964; }
-    #seccionContacto form .modal-content {
-      background-color: rgba(0, 0, 0, 0.664); }
-    #seccionContacto form .modal-header {
-      border-bottom: 0 none; }
-    #seccionContacto form .modal-footer {
-      border-top: 0 none; }
+    #contenedorPaquetes .card .card-body .card-title {
+      font-size: 2em;
+      border-bottom: 1px solid #fff;
+      font-weight: 700; }
+    #contenedorPaquetes .card .card-body .card-title2 {
+      text-align: center;
+      font-size: 2em;
+      transition: 200ms linear;
+      width: 100%;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.466);
+      border-radius: 10px; }
+    #contenedorPaquetes .card .card-body a {
+      margin: auto;
+      font-size: 1.2em;
+      font-weight: 700; }
+  #contenedorPaquetes .card li {
+    background-color: transparent;
+    font-size: 1.2em; }
+  #contenedorPaquetes .card img {
+    border-radius: 10px; }
+
+#contenedorPaquetes .card:hover {
+  background-color: #b2ab8c;
+  border-radius: 10px; }
+  #contenedorPaquetes .card:hover .card-title {
+    color: black;
+    border-bottom: 1px solid #000; }
+  #contenedorPaquetes .card:hover .card-title2 {
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white; }
+  #contenedorPaquetes .card:hover .card-text {
+    color: #000; }
+  #contenedorPaquetes .card:hover .list-group-item {
+    color: black; }
+
+@media all and (max-width: 525px) {
+  #contenedorPaquetes .title2 p {
+    font-size: 1.3em; }
+  #contenedorPaquetes .divCards {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  #contenedorPaquetes .card-body {
+    width: 100%; }
+  #contenedorPaquetes p.typeSans.title2 {
+    font-size: 1.3em; } }
+
+@media all and (max-width: 768px) {
+  #contenedorPaquetes .title2 p {
+    font-size: 1.3em; }
+  #contenedorPaquetes .divCards {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  #contenedorPaquetes .card-body {
+    width: 100%; }
+  #contenedorPaquetes p.typeSans.title2 {
+    font-size: 1.3em; }
+  #contenedorPaquetes .descripcion {
+    font-size: 2em; } }
+
+@media all and (min-width: 1000px) {
+  .divCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
 
 * {
   box-sizing: border-box; }
@@ -259,6 +311,45 @@
   content: "";
   display: table;
   clear: both; }
+
+#seccionContacto {
+  background-image: url("../css/assets/fondob4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+  #seccionContacto form {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px; }
+    #seccionContacto form .btn {
+      background-color: #1f2250;
+      border: 0 none;
+      margin: 50px; }
+    #seccionContacto form .btn:hover {
+      background-color: #b2ab8c; }
+    #seccionContacto form .btn:focus {
+      background-color: #7e7964; }
+    #seccionContacto form .modal-content {
+      background-color: rgba(0, 0, 0, 0.664); }
+    #seccionContacto form .modal-header {
+      border-bottom: 0 none; }
+    #seccionContacto form .modal-footer {
+      border-top: 0 none; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  margin: auto; }
+  .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: auto;
+    margin: auto; }
 
 .foot {
   position: relative;
@@ -385,12 +476,9 @@
 
 @media all and (min-width: 360px) {
   .foot .footerText {
-    font-size: 12px;
     position: relative;
     bottom: 0;
-    left: 0; }
-  .foot .footerLogos img {
-    width: 2rem; } }
+    left: 0; } }
 
 @media all and (min-width: 768px) {
   .foot .footerText {
@@ -408,7 +496,7 @@
 .typeSeriff {
   font-family: Noto Seriff;
   color: white;
-  font-size: 30px; }
+  font-size: 40px; }
 
 .typeSans {
   font-family: Varela Round;
