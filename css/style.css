@@ -268,42 +268,6 @@
   #contenedorPaquetes .card:hover .list-group-item {
     color: black; }
 
-@media all and (min-width: 360px) {
-  #contenedorPaquetes .title2 p {
-    font-size: 1.7em; }
-  #contenedorPaquetes .card-body {
-    width: 100%; }
-  #contenedorPaquetes p.typeSans.title2 {
-    font-size: 0.9em; } }
-
-@media all and (min-width: 560px) {
-  #contenedorPaquetes .title2 p {
-    font-size: 2em; }
-  #contenedorPaquetes .card-body {
-    width: 100%; }
-  #contenedorPaquetes p.typeSans.title2 {
-    font-size: 1.3em; } }
-
-@media all and (min-width: 769px) {
-  #contenedorPaquetes .title2 p {
-    font-size: 3em; }
-  #contenedorPaquetes .divCards {
-    display: flex;
-    flex-direction: row;
-    align-content: center; } }
-
-@media all and (max-width: 768px) {
-  #contenedorPaquetes .divCards {
-    display: flex;
-    flex-direction: column;
-    align-content: center; } }
-
-@media all and (min-width: 960px) {
-  .divCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; } }
-
 * {
   box-sizing: border-box; }
 
@@ -448,6 +412,42 @@
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%; } }
+
+@media all and (min-width: 360px) {
+  #contenedorPaquetes .title2 p {
+    font-size: 1.7em; }
+  #contenedorPaquetes .card-body {
+    width: 100%; }
+  #contenedorPaquetes p.typeSans.title2 {
+    font-size: 0.9em; } }
+
+@media all and (min-width: 560px) {
+  #contenedorPaquetes .title2 p {
+    font-size: 2em; }
+  #contenedorPaquetes .card-body {
+    width: 100%; }
+  #contenedorPaquetes p.typeSans.title2 {
+    font-size: 1.3em; } }
+
+@media all and (min-width: 769px) {
+  #contenedorPaquetes .title2 p {
+    font-size: 3em; }
+  #contenedorPaquetes .divCards {
+    display: flex;
+    flex-direction: row;
+    align-content: center; } }
+
+@media all and (max-width: 768px) {
+  #contenedorPaquetes .divCards {
+    display: flex;
+    flex-direction: column;
+    align-content: center; } }
+
+@media all and (min-width: 960px) {
+  .divCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
 
 @media all and (min-width: 360px) {
   #seccionContacto .title3 {

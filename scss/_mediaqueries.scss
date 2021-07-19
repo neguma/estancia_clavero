@@ -75,6 +75,67 @@
 }
 
 //
+// SECCION SERVICIOS
+@media all and(min-width:360px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 1.7em;
+        }
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 0.9em;
+        }
+    }
+}
+
+@media all and(min-width:560px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 2em;
+        }
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media all and(min-width:769px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 3em;
+        }
+        .divCards {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+        }
+    }
+}
+
+@media all and(max-width:768px) {
+    #contenedorPaquetes {
+        .divCards {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+    }
+}
+
+@media all and(min-width:960px) {
+    .divCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+//
 // SECCION CONTACTO
 @media all and (min-width: 360px) {
     #seccionContacto {
