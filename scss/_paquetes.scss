@@ -67,56 +67,61 @@
     }
 }
 
-@media all and(max-width:560px) {
+@media all and(min-width:360px) {
     #contenedorPaquetes {
         .title2 p {
-            font-size: 3em;
+            font-size: 1.7em;
         }
-        .divCards {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 0.9em;
+        }
+    }
+}
+
+@media all and(min-width:560px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 2em;
         }
         .card-body {
             width: 100%;
         }
         p.typeSans.title2 {
             font-size: 1.3em;
+        }
+    }
+}
+
+@media all and(min-width:769px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 3em;
+        }
+        .divCards {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
         }
     }
 }
 
 @media all and(max-width:768px) {
     #contenedorPaquetes {
-        .title2 p {
-            font-size: 3em;
-        }
         .divCards {
             display: flex;
             flex-direction: column;
             align-content: center;
         }
-        .card-body {
-            width: 100%;
-        }
-        p.typeSans.title2 {
-            font-size: 1.3em;
-        }
-        .descripcion {
-            font-size: 2em;
-        }
     }
 }
 
-@media all and(min-width:1000px) {
+@media all and(min-width:960px) {
     .divCards {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
-    #contenedorPaquetes {
-        .descripcion {
-            font-size: 1.4em;
-        }
     }
 }
