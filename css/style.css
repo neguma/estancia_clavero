@@ -92,7 +92,6 @@
   color: white;
   height: 200px;
   padding: 55px;
-  width: 75%;
   margin: auto;
   text-align: center;
   font-style: italic; }
@@ -104,7 +103,6 @@
   color: white;
   height: 200px;
   padding: 55px;
-  width: 75%;
   margin: auto;
   text-align: center;
   font-style: italic; }
@@ -180,6 +178,21 @@
 .boxInfo {
   display: flex;
   flex-direction: row; }
+
+@media all and (min-width: 360px) {
+  #seccionPrincipal .title.bgBlack p {
+    font-size: 1.9em; }
+  #seccionPrincipal .cardNosotros .tituloNosotros {
+    width: 75%;
+    font-size: 1.9em; }
+  #seccionPrincipal .cardNosotros .textoNosotros {
+    width: 75%;
+    font-size: 0.8em; }
+  #seccionPrincipal #servicios div.title2 p {
+    font-size: 1.9em;
+    width: 100%; }
+  #activities div.title2 p {
+    font-size: 1.9em; } }
 
 @media all and (max-width: 991px) {
   .boxInfo {
