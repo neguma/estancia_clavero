@@ -165,21 +165,29 @@
     #activities .actividades .carousel-inner img:hover {
       transform: scale(1.5);
       padding: -250px; }
-  #activities .carousel-inner img {
-    width: auto;
-    height: auto;
-    transition: 0.5s all ease-in-out; }
-  #activities .carousel-inner img:hover {
-    transform: scale(1.1); }
   #activities .card-body .card-text {
     font-size: 1.5em;
     margin: 25px; }
+  #activities .btn:focus,
+  #activities .btn:active {
+    outline: none !important;
+    box-shadow: none; }
+  #activities .btn-outline-primary {
+    border: 1px solid #b2ab8c;
+    color: #fff; }
+  #activities .btn-outline-primary:hover {
+    border: 1px solid #b2ab8c;
+    background-color: #7a7660; }
+  #activities .btn-outline-primary:active {
+    border: none;
+    background-color: #b2ab8c !important;
+    outline: none !important; }
 
 .boxInfo {
   display: flex;
   flex-direction: row; }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 560px) {
   #seccionPrincipal .title.bgBlack p {
     font-size: 1.9em; }
   #seccionPrincipal .cardNosotros .tituloNosotros {
@@ -192,9 +200,56 @@
     font-size: 1.9em;
     width: 100%; }
   #activities div.title2 p {
-    font-size: 1.9em; } }
+    font-size: 1.9em; }
+  #activities .actividades {
+    padding: 10px; }
+    #activities .actividades ul li {
+      list-style-type: none;
+      font-size: 1.4em;
+      padding: 10px; }
+  #activities .card-body .card-text {
+    font-size: 1em; } }
 
-@media all and (max-width: 991px) {
+/*@media all and(max-width:768px) {
+    .boxInfo {
+        display: flex;
+        flex-direction: column;
+        .box {
+            width: 100%;
+        }
+    }
+    .cardNosotros {
+        display: flex;
+        flex-direction: column;
+        .tarjeta {
+            .tituloNosotros {
+                font-size: 0.7em;
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+    #servicios {
+        div.title2 p {
+            font-size: 2.2em;
+            width: 100%;
+        }
+    }
+    #activities {
+        div.title2 p {
+            font-size: 2.3em;
+        }
+        .actividades {
+            padding: 10px;
+            ul li {
+                list-style-type: none;
+                font-size: 1.2em;
+                padding: 10px;
+            }
+        }
+    }
+}*/
+@media all and (max-width: 960px) {
   .boxInfo {
     display: flex;
     flex-direction: column; }
@@ -204,27 +259,20 @@
     display: flex;
     flex-direction: column; }
     .cardNosotros .tarjeta .tituloNosotros {
-      font-size: 0.1em;
-      margin: auto; }
-    .cardNosotros .tarjeta .textoNosotros {
-      margin-top: 50px;
-      font-size: 0.1em; }
-  #activities .card-body .card-text {
-    font-size: 1em; }
-  #activities .actividades {
-    font-size: 0.7em; } }
-
-@media all and (min-width: 1000px) {
-  .cardNosotros {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; }
-    .cardNosotros .tituloNosotros {
-      margin: auto; }
-    .cardNosotros .textoNosotros {
+      font-size: 0.7em;
       margin: auto;
-      margin-top: 50px;
-      font-size: 1.2em; } }
+      width: 100%; }
+  #servicios div.title2 p {
+    font-size: 2.2em;
+    width: 100%; }
+  #activities div.title2 p {
+    font-size: 2.3em; }
+  #activities .actividades {
+    padding: 10px; }
+    #activities .actividades ul li {
+      list-style-type: none;
+      font-size: 1.2em;
+      padding: 10px; } }
 
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
