@@ -107,17 +107,6 @@
             font-size: 2em;
             padding: 20px;
         }
-        .carousel-inner {
-            img {
-                width: auto;
-                height: auto;
-                transition: 0.9s all ease-in-out;
-            }
-            img:hover {
-                transform: scale(1.5);
-                padding: -250px;
-            }
-        }
     }
     .card-body {
         .card-text {
