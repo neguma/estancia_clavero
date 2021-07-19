@@ -13,13 +13,15 @@
         .btn {
             background-color: rgb(31, 34, 80);
             border: 0 none;
-            margin: 50px;
+            margin: px;
         }
         .btn:hover {
             background-color: #b2ab8c;
         }
-        .btn:focus {
-            background-color: #7e7964;
+        .btn:focus,
+        .btn:active {
+            outline: none !important;
+            box-shadow: none;
         }
         .modal-content {
             background-color: rgba(0, 0, 0, 0.664);

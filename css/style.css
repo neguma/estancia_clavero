@@ -299,11 +299,13 @@
     #seccionContacto form .btn {
       background-color: #1f2250;
       border: 0 none;
-      margin: 50px; }
+      margin: px; }
     #seccionContacto form .btn:hover {
       background-color: #b2ab8c; }
-    #seccionContacto form .btn:focus {
-      background-color: #7e7964; }
+    #seccionContacto form .btn:focus,
+    #seccionContacto form .btn:active {
+      outline: none !important;
+      box-shadow: none; }
     #seccionContacto form .modal-content {
       background-color: rgba(0, 0, 0, 0.664); }
     #seccionContacto form .modal-header {
