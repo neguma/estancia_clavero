@@ -39,6 +39,90 @@
 }
 
 //
+// HOME
+@media all and(max-width:560px) {
+    #seccionPrincipal {
+        .title.bgBlack p {
+            font-size: 1.9em;
+        }
+        .cardNosotros {
+            .tituloNosotros {
+                width: 75%;
+                font-size: 1.9em;
+            }
+            .textoNosotros {
+                width: 75%;
+                font-size: 0.8em;
+            }
+        }
+        #servicios {
+            div.title2 p {
+                font-size: 1.9em;
+                width: 100%;
+            }
+        }
+    }
+    #activities {
+        div.title2 p {
+            font-size: 1.9em;
+        }
+        .actividades {
+            padding: 10px;
+            ul li {
+                list-style-type: none;
+                font-size: 1.4em;
+                padding: 10px;
+            }
+        }
+        .card-body {
+            .card-text {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media all and(max-width:960px) {
+    .boxInfo {
+        display: flex;
+        flex-direction: column;
+        .box {
+            width: 100%;
+        }
+    }
+    .cardNosotros {
+        display: flex;
+        flex-direction: column;
+        .tarjeta {
+            .tituloNosotros {
+                font-size: 0.7em;
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+    #servicios {
+        div.title2 p {
+            font-size: 2.2em;
+            width: 100%;
+        }
+    }
+    #activities {
+        div.title2 p {
+            font-size: 2.3em;
+        }
+        .actividades {
+            padding: 10px;
+            ul li {
+                list-style-type: none;
+                font-size: 1.2em;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+//
 // SECCION GALERIA
 @media all and (min-width:1280px) {
     #contenedorImagenes {

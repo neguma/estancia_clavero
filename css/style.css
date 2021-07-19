@@ -187,93 +187,6 @@
   display: flex;
   flex-direction: row; }
 
-@media all and (max-width: 560px) {
-  #seccionPrincipal .title.bgBlack p {
-    font-size: 1.9em; }
-  #seccionPrincipal .cardNosotros .tituloNosotros {
-    width: 75%;
-    font-size: 1.9em; }
-  #seccionPrincipal .cardNosotros .textoNosotros {
-    width: 75%;
-    font-size: 0.8em; }
-  #seccionPrincipal #servicios div.title2 p {
-    font-size: 1.9em;
-    width: 100%; }
-  #activities div.title2 p {
-    font-size: 1.9em; }
-  #activities .actividades {
-    padding: 10px; }
-    #activities .actividades ul li {
-      list-style-type: none;
-      font-size: 1.4em;
-      padding: 10px; }
-  #activities .card-body .card-text {
-    font-size: 1em; } }
-
-/*@media all and(max-width:768px) {
-    .boxInfo {
-        display: flex;
-        flex-direction: column;
-        .box {
-            width: 100%;
-        }
-    }
-    .cardNosotros {
-        display: flex;
-        flex-direction: column;
-        .tarjeta {
-            .tituloNosotros {
-                font-size: 0.7em;
-                margin: auto;
-                width: 100%;
-            }
-        }
-    }
-    #servicios {
-        div.title2 p {
-            font-size: 2.2em;
-            width: 100%;
-        }
-    }
-    #activities {
-        div.title2 p {
-            font-size: 2.3em;
-        }
-        .actividades {
-            padding: 10px;
-            ul li {
-                list-style-type: none;
-                font-size: 1.2em;
-                padding: 10px;
-            }
-        }
-    }
-}*/
-@media all and (max-width: 960px) {
-  .boxInfo {
-    display: flex;
-    flex-direction: column; }
-    .boxInfo .box {
-      width: 100%; }
-  .cardNosotros {
-    display: flex;
-    flex-direction: column; }
-    .cardNosotros .tarjeta .tituloNosotros {
-      font-size: 0.7em;
-      margin: auto;
-      width: 100%; }
-  #servicios div.title2 p {
-    font-size: 2.2em;
-    width: 100%; }
-  #activities div.title2 p {
-    font-size: 2.3em; }
-  #activities .actividades {
-    padding: 10px; }
-    #activities .actividades ul li {
-      list-style-type: none;
-      font-size: 1.2em;
-      padding: 10px; } }
-
 #seccionPaquetes {
   background-image: url("../css/assets/fondob4.jpg");
   background-size: cover;
@@ -452,6 +365,54 @@
     width: 10rem; }
   .navbar-brand {
     display: block; } }
+
+@media all and (max-width: 560px) {
+  #seccionPrincipal .title.bgBlack p {
+    font-size: 1.9em; }
+  #seccionPrincipal .cardNosotros .tituloNosotros {
+    width: 75%;
+    font-size: 1.9em; }
+  #seccionPrincipal .cardNosotros .textoNosotros {
+    width: 75%;
+    font-size: 0.8em; }
+  #seccionPrincipal #servicios div.title2 p {
+    font-size: 1.9em;
+    width: 100%; }
+  #activities div.title2 p {
+    font-size: 1.9em; }
+  #activities .actividades {
+    padding: 10px; }
+    #activities .actividades ul li {
+      list-style-type: none;
+      font-size: 1.4em;
+      padding: 10px; }
+  #activities .card-body .card-text {
+    font-size: 1em; } }
+
+@media all and (max-width: 960px) {
+  .boxInfo {
+    display: flex;
+    flex-direction: column; }
+    .boxInfo .box {
+      width: 100%; }
+  .cardNosotros {
+    display: flex;
+    flex-direction: column; }
+    .cardNosotros .tarjeta .tituloNosotros {
+      font-size: 0.7em;
+      margin: auto;
+      width: 100%; }
+  #servicios div.title2 p {
+    font-size: 2.2em;
+    width: 100%; }
+  #activities div.title2 p {
+    font-size: 2.3em; }
+  #activities .actividades {
+    padding: 10px; }
+    #activities .actividades ul li {
+      list-style-type: none;
+      font-size: 1.2em;
+      padding: 10px; } }
 
 @media all and (min-width: 1280px) {
   #contenedorImagenes .title2 {
