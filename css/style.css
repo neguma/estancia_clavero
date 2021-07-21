@@ -300,7 +300,8 @@
     border-radius: 10px; }
     #seccionContacto form .form-control {
       background-color: #0000008f;
-      border: 1px solid #0000008f; }
+      border: 1px solid #0000008f;
+      color: white; }
     #seccionContacto form .btn {
       background-color: #1f2250;
       border: 0 none;
