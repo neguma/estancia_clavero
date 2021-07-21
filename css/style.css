@@ -175,6 +175,8 @@
     border: none;
     background-color: #b2ab8c !important;
     outline: none !important; }
+  #activities .carousel {
+    z-index: 0; }
 
 .boxInfo {
   display: flex;

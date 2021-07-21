@@ -132,6 +132,9 @@
         background-color: $col1 !important;
         outline: none !important;
     }
+    .carousel{
+        z-index: 0;
+    }
 }
 
 .boxInfo {
