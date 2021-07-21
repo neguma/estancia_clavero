@@ -10,6 +10,10 @@
         padding: 15px;
         font-size: 20px;
         border-radius: 10px;
+        .form-control{
+            background-color: #0000008f;
+            border: 1px solid #0000008f;
+        }
         .btn {
             background-color: rgb(31, 34, 80);
             border: 0 none;
